@@ -14,7 +14,7 @@ const Navbar = () => {
           
 
         }}>
-           Menz Gallery
+           Menz Gallery & Cosmetics
         </div>
     );
 };

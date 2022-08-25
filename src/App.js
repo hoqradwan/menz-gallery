@@ -14,7 +14,7 @@ function App() {
     // const { data } = await axios("https://dummyjson.com/products");
     const { data } = await axios("https://fakestoreapi.com/products");
     /* const { data } = await axios("'https://fakestoreapi.com/products/category/jewelery"); */
-
+ 
     dispatch({
       type: "ADD_PRODUCT",
       payload: data,
